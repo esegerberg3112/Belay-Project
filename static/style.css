@@ -1,0 +1,255 @@
+body {
+  background-color:beige;
+}
+
+button {
+  margin: 5px;
+}
+/* Login and Sign up pages */
+.login {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 100%;
+  }
+  
+  .login > * {
+    padding: 4px;
+    margin: 6px;
+  }
+  
+  .login error {
+    color: gray;
+    display: none;
+  }
+  
+  .login button {
+    margin-right: auto;
+  }
+
+.accessSite {
+    margin: auto;
+    margin-top: 100px;
+    width:375px;
+}
+
+.signUp { 
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+/* Profile screen */
+.profile {
+  margin: auto;
+  margin-top: 100px;
+  width:375px;
+}
+
+.alignedForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.alignedForm input {
+  width: 200px;
+}
+
+.exit.goToSplash,
+.exit.logout {
+  margin: 10px auto; /* Adjust the margin value as needed */
+  display: block;
+  text-align: center;
+}
+
+.profile h2 {
+  text-align: center;
+  font-size: 36px;
+}
+
+.profile h3 {
+  text-align: center;
+  font-size: 24px;
+}
+
+/* Home page title */
+.website-title {
+  text-align: center;
+  font-size: 40px;
+}
+
+/* Home page Header buttons */
+.home-header .home-buttons {
+  text-align: right;
+}
+
+/* home page content */
+.home-content {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* grid-auto-rows: minmax(100px, auto); */
+  font-size: 16px;
+  grid-gap: 25px;
+}
+
+/* attribute to add to certain HTML grid elements when want to hide them */
+.hide-grid { 
+  display: none;
+}
+
+/* List of Channels */
+.fa fa-pencil {
+  float: right;
+}
+
+.channels {
+  grid-row: 1;
+}
+
+.create-channels{
+  margin-top: 10px;
+}
+
+.highlighted-channel { 
+  background-color:blueviolet!important;
+}
+
+.channels-list .unique-channel > a {
+  display: block;
+  flex: 1 1 100%;
+  padding: 8px;
+  margin: 4px;
+  color: white;
+  text-shadow: 0 1px 1px darkslateblue;
+  border-radius: 4px;
+  background-color: gray;
+  box-shadow: 0 4px 8px lightcyan;
+}
+
+.channels-list .unique-channel > a:hover {
+  background-color: rgb(75, 101, 122);
+  border-radius: 3px;
+}
+
+.channels-list .unique-channel a {
+  text-decoration: none;
+  will-change: transform;
+  transition: transform 250ms;
+}
+
+.channels-list .unique-channel a:hover {
+  transform: scale(1.025);
+}
+
+/* Emojiis */
+
+.message-emoji { 
+  margin: 1px 5px;
+}
+
+/* List of Messages */
+.messages-pane {
+  align-items: start; /* Align items to the top */
+}
+
+.exit-messages {
+  float:right;
+}
+
+.message-title {
+  justify-self: start;
+}
+
+.reply-button {
+  /* justify-self: end; */
+  float: right;
+  grid-column: 2/2;
+  text-decoration: underline;
+}
+
+.postMessage {
+  width: 250px;
+  margin-top: 20px;
+}
+
+/* Each individual message in a channel */
+.messages-list {
+  display: grid;
+  grid-column: span 2;
+  margin-top: 10px;
+  height: auto;
+  align-items: start;
+}
+
+/* image sizing */
+.messages-list img {
+  width: 150px;
+  height: 150px;
+}
+
+.message {
+  border-bottom: 1px solid lightgray;
+}
+
+.messages-list .message author {
+  color:slategray;
+  font-weight: bold;
+  display: block;
+  padding: 5px;
+  grid-column: 1/2;
+}
+
+.messages-list .message content {
+  display: block;
+  padding: 5px;
+  grid-column: 2/3;
+  max-width: 75%;
+  word-wrap: break-word;
+}
+
+
+/* List of Replies */
+.replies-pane {
+  align-items: start; /* Align items to the top */
+}
+
+.exit-replies {
+  float: right;
+}
+
+.replies-title {
+  justify-self: start;
+}
+
+.postReply {
+  width: 250px;
+}
+
+/* Each individual message in a channel */
+.replies-list {
+  display: grid;
+  grid-column: span 2;
+  margin-top: 10px;
+  height: auto;
+  align-items: start;
+}
+
+.reply {
+  border-bottom: 1px solid lightgray;
+}
+
+.replies-list .reply author {
+  color:slategray;
+  font-weight: bold;
+  display: block;
+  padding: 5px;
+  grid-column: 1/2;
+}
+
+.replies-list .reply content {
+  display: block;
+  padding: 5px;
+  grid-column: 2/3;
+  max-width: 60%;
+  word-wrap: break-word;
+}
