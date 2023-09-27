@@ -15,5 +15,5 @@ https://github.com/esegerberg3112/Belay-Project/assets/61920056/b9f699e2-1355-48
 
 **Built with**:
 * React
-* Python
+* Python (Flask)
 * SQLite
