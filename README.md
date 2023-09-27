@@ -1,4 +1,4 @@
-About this project:
+# Belay
 
 Belay is a messaging and chat-room web application. 
 
