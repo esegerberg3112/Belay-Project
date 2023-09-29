@@ -14,6 +14,6 @@ https://github.com/esegerberg3112/Belay-Project/assets/61920056/b9f699e2-1355-48
 - Responsive styling
 
 **Built with**:
-* React
+* HTML / CSS / JavaScript (React)
 * Python (Flask)
 * SQLite
